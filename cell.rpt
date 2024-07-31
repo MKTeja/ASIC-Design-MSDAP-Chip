@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : cell
+Design : controller
+Version: O-2018.06-SP1
+Date   : Fri Apr 21 22:25:12 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U10                       AND2X1M         ss_1v62_125c    10.976000 
+outputL_reg               TLATNX1M        ss_1v62_125c    28.537600 n
+outputR_reg               TLATNX1M        ss_1v62_125c    28.537600 n
+output_received_reg       TLATNX1M        ss_1v62_125c    28.537600 n
+--------------------------------------------------------------------------------
+Total 4 cells                                             96.588799
+1

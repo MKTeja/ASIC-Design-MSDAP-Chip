@@ -1,0 +1,23 @@
+ 
+****************************************
+Report : resources
+Design : controller
+Version: O-2018.06-SP1
+Date   : Fri Apr 21 22:25:12 2023
+****************************************
+
+Resource Sharing Report for design controller in file
+        /home/011/s/sx/sxs200367/ASIC/final_proj/main_synthesyzing.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r96      | DW01_cmp2    | width=14   |               | lt_149               |
+| r106     | DW01_dec     | width=9    |               | sub_92               |
+| r152     | DW01_inc     | width=14   |               | add_270 add_302      |
+===============================================================================
+
+
+No implementations to report
+1

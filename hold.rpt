@@ -1,0 +1,160 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 10
+        -max_paths 10
+Design : controller
+Version: O-2018.06-SP1
+Date   : Fri Apr 21 22:25:12 2023
+****************************************
+
+Operating Conditions: ss_1v62_125c   Library: ss_1v62_125c
+Wire Load Model Mode: top
+
+  Startpoint: inReady (internal pin)
+  Endpoint: inReady (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  inReady (out)                            0.00       0.00 r
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: outputL_reg/Q (internal pin)
+  Endpoint: outputL (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  outputL_reg/Q (TLATNX1M)                 0.00       0.00 r
+  outputL (out)                            0.00       0.00 r
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: outputR_reg/Q (internal pin)
+  Endpoint: outputR (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  outputR_reg/Q (TLATNX1M)                 0.00       0.00 r
+  outputR (out)                            0.00       0.00 r
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inReady (internal pin)
+  Endpoint: inReady (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  inReady (out)                            0.00       0.00 f
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: outputL_reg/Q (internal pin)
+  Endpoint: outputL (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  outputL_reg/Q (TLATNX1M)                 0.00       0.00 f
+  outputL (out)                            0.00       0.00 f
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: outputR_reg/Q (internal pin)
+  Endpoint: outputR (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  outputR_reg/Q (TLATNX1M)                 0.00       0.00 f
+  outputR (out)                            0.00       0.00 f
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: frame (input port)
+  Endpoint: outReady (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  frame (in)                               0.00       0.00 r
+  U10/Y (AND2X1M)                          0.13       0.13 r
+  outReady (out)                           0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: frame (input port)
+  Endpoint: outReady (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  frame (in)                               0.00       0.00 f
+  U10/Y (AND2X1M)                          0.14       0.14 f
+  outReady (out)                           0.00       0.14 f
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: output_received_reg/QN (internal pin)
+  Endpoint: outReady (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  output_received_reg/QN (TLATNX1M)        0.00       0.00 r
+  U10/Y (AND2X1M)                          0.14       0.14 r
+  outReady (out)                           0.00       0.14 r
+  data arrival time                                   0.14
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: output_received_reg/QN (internal pin)
+  Endpoint: outReady (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  output_received_reg/QN (TLATNX1M)        0.00       0.00 f
+  U10/Y (AND2X1M)                          0.15       0.15 f
+  outReady (out)                           0.00       0.15 f
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

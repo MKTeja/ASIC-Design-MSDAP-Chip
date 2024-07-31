@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : controller
+Version: O-2018.06-SP1
+Date   : Fri Apr 21 22:25:12 2023
+****************************************
+
+
+Library(s) Used:
+
+    ss_1v62_125c (File: /home/eng/x/xxw122030/synopsys/ss_1v62_125c.db)
+
+
+Operating Conditions: ss_1v62_125c   Library: ss_1v62_125c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   0.0000 mW        
+  Net Switching Power  =   0.0000 mW        
+                         ---------
+Total Dynamic Power    =   0.0000 mW        
+
+Cell Leakage Power     =   4.2908 nW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000        3.8984e+03        3.8984e-06  (  90.85%)
+combinational      0.0000            0.0000          392.4255        3.9243e-07  (   9.15%)
+--------------------------------------------------------------------------------------------------
+Total              0.0000 mW         0.0000 mW     4.2908e+03 pW     4.2908e-06 mW
+1
